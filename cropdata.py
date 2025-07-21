@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 import numpy as np
 
 # Load data
-df = pd.read_excel('crop_data.xlsx.xlsx')
+df = pd.read_excel('crop_data.xlsx')
 
 
 
