@@ -101,12 +101,12 @@ with tab1:
         fig = px.histogram(df, x="Yield (Q/acre)", nbins=20, title="Yield Distribution", color_discrete_sequence=["#4CAF50"])
         st.plotly_chart(fig, use_container_width=True)
     
-    with col2:
-        st.markdown("#### Correlation Heatmap")
-        corr = df[["Rain Fall (mm)", "Fertilizer", "Temperatue", "Nitrogen (N)", "Phosphorus (P)", "Potassium (K)", "Yield (Q/acre)"]].corr()
-        fig, ax = plt.subplots()
-        sns.heatmap(corr, annot=True, cmap="YlGnBu", fmt=".2f", ax=ax)
-        st.pyplot(fig)
+    # with col2:
+    #     st.markdown("#### Correlation Heatmap")
+    #     corr = df[["Rain Fall (mm)", "Fertilizer", "Temperatue", "Nitrogen (N)", "Phosphorus (P)", "Potassium (K)", "Yield (Q/acre)"]].corr()
+    #     fig, ax = plt.subplots()
+    #     sns.heatmap(corr, annot=True, cmap="YlGnBu", fmt=".2f", ax=ax)
+    #     st.pyplot(fig)
 
 # ---- TAB 2: YIELD PREDICTOR ----
 with tab2:
