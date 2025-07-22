@@ -90,7 +90,7 @@ def is_suitable_for_planting(temp, rainfall, crop):
 # ---- LOAD DATA ----
 @st.cache_data
 def load_data():
-    csv_data = loadFileData("crop_data1.csv")
+    csv_data = loadFileData("crop_data1.xlsx")
     df = pd.read_csv(StringIO(csv_data))
     df = df.dropna()
     for col in ["Rain Fall (mm)", "Fertilizer", "Temperatue", "Nitrogen (N)", "Phosphorus (P)", "Potassium (K)", "Yield (Q/acre)"]:
