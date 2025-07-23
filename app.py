@@ -151,10 +151,10 @@ with st.container():
     #st.image("https://images.unsplash.com/photo-1500595046743-ff22c10ab070", caption="Visualize Your Farming Future", use_container_width=True)
 
 
-##################
-with st.sidebar:
-    st.markdown("## 📞 Judas Critical 0711112222")
-##############
+# ##################
+# with st.sidebar:
+#     st.markdown("## 📞 Judas Critical 0711112222")
+# ##############
 
 # ---- SIDEBAR ----
 with st.sidebar:
