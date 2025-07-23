@@ -148,7 +148,7 @@ with st.container():
     """, unsafe_allow_html=True)
     
     st.markdown("<hr>", unsafe_allow_html=True)
-    st.image("https://images.unsplash.com/photo-1500595046743-ff22c10ab070", caption="Visualize Your Farming Future", use_container_width=True)
+    #st.image("https://images.unsplash.com/photo-1500595046743-ff22c10ab070", caption="Visualize Your Farming Future", use_container_width=True)
 
 # ---- SIDEBAR ----
 with st.sidebar:
