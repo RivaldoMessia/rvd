@@ -150,6 +150,12 @@ with st.container():
     st.markdown("<hr>", unsafe_allow_html=True)
     #st.image("https://images.unsplash.com/photo-1500595046743-ff22c10ab070", caption="Visualize Your Farming Future", use_container_width=True)
 
+
+##################
+with st.sidebar:
+    st.markdown("## 📞 Contact")
+##############
+
 # ---- SIDEBAR ----
 with st.sidebar:
     st.markdown("<h2 style='color: #388E3C;'>🔧 Input Parameters</h2>", unsafe_allow_html=True)
