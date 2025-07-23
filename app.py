@@ -7,6 +7,8 @@ from sklearn.linear_model import LinearRegression
 import numpy as np
 from datetime import datetime, timedelta
 
+
+#this is the app we are presenting
 # ---- SESSION STATE LOGIN INIT ----
 if "authenticated" not in st.session_state:
     st.session_state["authenticated"] = False
@@ -15,7 +17,7 @@ if "login_attempted" not in st.session_state:
 
 # ---- LOGIN SCREEN ----
 def login():
-    st.markdown("<h1 style='text-align: center; color: #2E7D32;'>🔐 Crop Yield Dashboard Login</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: #2E7D32;'>🔐 AgriLens Login</h1>", unsafe_allow_html=True)
     st.markdown("<div style='padding: 20px; background-color: #F1F8E9; border-radius: 10px;'>", unsafe_allow_html=True)
     username = st.text_input("Username", key="login_user")
     password = st.text_input("Password", type="password", key="login_pass")
