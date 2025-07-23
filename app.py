@@ -153,7 +153,7 @@ with st.container():
 
 ##################
 with st.sidebar:
-    st.markdown("## 📞 Contact")
+    st.markdown("## 📞 Judas Critical 0711112222")
 ##############
 
 # ---- SIDEBAR ----
