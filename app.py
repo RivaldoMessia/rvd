@@ -299,3 +299,11 @@ with tab4:
             )
         else:
             st.warning(f"No suitable planting dates found for {crop} in the next 7 days.")
+
+# ---- LOGOUT BUTTON ----
+with st.sidebar:
+    if st.button("Logout", key="logout_button"):
+        st.session_state["authenticated"] = False
+        st.session_state["login_attempted"] = False
+        st.rerun()
+
