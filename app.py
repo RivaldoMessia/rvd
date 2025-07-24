@@ -142,7 +142,7 @@ with st.container():
     st.markdown("<h1 style='text-align: center; color: #2E7D32;'>🌾 Welcome to AgriLens</h1>", unsafe_allow_html=True)
     st.markdown("""
     <div style='text-align: center; background-color: #F1F8E9; padding: 20px; border-radius: 10px;'>
-        <p style='font-size: 18px;'>AgriLens empowers farmers with data-driven insights to optimize crop yields and plan planting schedules.</p>
+        <p style='font-size: 18px;'>AgriLens empowers you with data-driven insights to optimize crop yields and plan planting schedules.</p>
         <p style='font-size: 16px; color: #388E3C;'>Explore the tabs below to analyze data, predict yields, get recommendations, and schedule planting.</p>
     </div>
     """, unsafe_allow_html=True)
