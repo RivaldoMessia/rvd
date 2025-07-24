@@ -284,7 +284,7 @@ with tab4:
         if suitable_dates:
             st.markdown(f"<h3 style='color: #388E3C;'>Recommended Planting Dates for {crop} in {city}</h3>", unsafe_allow_html=True)
             date_range = f"{min(suitable_dates).strftime('%B %d')} - {max(suitable_dates).strftime('%B %d')}"
-            st.markdown(f"**Best planting period:** {date_range} (Source: Open-Meteo)")
+            st.markdown(f"**Best planting period:** {date_range}")
             
             df_dates = pd.DataFrame({
                 "Date": suitable_dates,
