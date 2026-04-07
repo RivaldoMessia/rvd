@@ -51,7 +51,7 @@ def login():
         with col2:
             if st.button("Login", key="login_button"):
                 st.session_state["login_attempted"] = True
-                if username == "Bruce" and password == "1234":
+                if username == "Rivaldo" and password == "1234":
                     st.session_state["authenticated"] = True
                 else:
                     st.session_state["authenticated"] = False
